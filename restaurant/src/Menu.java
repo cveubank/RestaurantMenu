@@ -1,34 +1,40 @@
 import java.util.Date;
 import java.time.LocalDate;
 
-public class Menu {
+public class  Menu {
 
-// METHOD TO ADD OR REMOVE ITEMS FROM THE MENU
-    //when last updated - date method
-    //private boolean -- new or not - method
-    // a way to determine whether or not two menu items are equal --equals() method
+    //Have your menu class contain the methods for filtering and printing out the menu.
 
-    public static dateUpdatedMethod(){
-        LocalDate lastUpdated
-                //correct here
-    }
+
+    //TODO:
+    /*
+    * When was the menu last updated
+    * Is it new or not? (private, boolean, method)
+    * A way to determine whether two menu items are equal (equals method)
+    * A method to delete an item then re-print the menu (remove, then loop again?)
+
+
+     TODO:
+    * Then in the menu class, you can compare getDate with today’s date.
+    * Then over in the menu class, you can have a method to create a menu item which will add it to an arrayList of menuItems.
+    * You can have another method that just prints out that menu.
+
+
+
+     */
+
+//
+//    public static dateUpdatedMethod(){
+//        LocalDate lastUpdated;
+//                //correct here
+//    }
 
 //put wholemenu here??
-
-
-
-    // GETTER
-    // public Sting getName () {
-    // return name;
-    // }
-
-    //SETTER
-    //public void setName(String newName){
-    // this.name = newName;
-    // }
-
-
-
-
+//public static void printWholeMenu() {
+//    for(int i = 0; i < wholeMenu.size(); i++){
+//        System.out.println(wholeMenu.get(i));
+//        System.out.println("\n");
+//        }
+//    }
 }
 
