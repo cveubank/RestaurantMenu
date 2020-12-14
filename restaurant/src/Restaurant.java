@@ -1,12 +1,10 @@
-import java.util.ArrayList;
-
 public class Restaurant {
 
     public static void main (String[] args){
 
-//      TODO:  Create several items and add them to a menu.
 
 //      TODO: Print the entire, updated menu to the screen.
+        Menu.menuList();
 
 //      TODO: Print an individual menu item to the screen.
 
